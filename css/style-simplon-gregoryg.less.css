@@ -1,0 +1,27 @@
+.box-1-simplon-gregoryg {
+  width: 300px;
+  height: 300px;
+  border: 2px solid;
+  border-color: #ff6200;
+  border-radius: 5px;
+  background-color: #ff6200;
+}
+.box-2-simplon-gregoryg {
+  width: 300px;
+  height: 300px;
+  border: 2px solid;
+  border-color: #0c0040;
+  border-radius: 5px;
+  background-color: #0c0040;
+}
+.box-2-simplon-gregoryg p {
+  color: white;
+}
+.box-3-simplon-gregoryg {
+  width: 300px;
+  height: 300px;
+  border: 2px solid;
+  border-color: #27c8f9;
+  border-radius: 5px;
+  background-color: #27c8f9;
+}
