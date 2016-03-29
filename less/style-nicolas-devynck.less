@@ -1,2 +1,14 @@
-@val : 15px;
-margin-left: @val;
+
+@var : 2px;
+
+.box-1-nicolas-devynck(@val), .box-2-nicolas-devync(@val), .box-3-nicolas-devynck(@val) {
+     margin: @val;
+     padding: @val;
+     border-radius: @val;
+     border: @val;
+}
+body {
+  .box-1-nicolas-devynck(@var);
+  .box-2-nicolas-devync(@var);
+  .box-3-nicolas-devynck(@var);
+}
