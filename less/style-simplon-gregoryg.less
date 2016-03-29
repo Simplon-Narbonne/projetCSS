@@ -1,0 +1,12 @@
+.loop(@name; @columns; @index: 1) when (@index =< @columns) {
+ .@{name}-@{index} {
+    top: @index * 1px
+;
+  }
+  .loop(@name; @columns; (@index + 1));
+//incrementation
+}
+// Fonction Loop
+#example {
+.loop(classname; 12);
+}
