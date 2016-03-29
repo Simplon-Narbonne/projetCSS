@@ -2,26 +2,32 @@
   width: 300px;
   height: 300px;
   border: 2px solid;
-  border-color: #ff6200;
-  border-radius: 5px;
-  background-color: #ff6200;
+  border-color: #8ae1fc;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 70px;
+  background-color: #8ae1fc;
 }
 .box-2-simplon-gregoryg {
   width: 300px;
   height: 300px;
   border: 2px solid;
-  border-color: #0c0040;
-  border-radius: 5px;
-  background-color: #0c0040;
-}
-.box-2-simplon-gregoryg p {
-  color: white;
+  border-color: #27c8f9;
+  border-top-left-radius: 70px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 50px;
+  background-color: #27c8f9;
 }
 .box-3-simplon-gregoryg {
   width: 300px;
   height: 300px;
   border: 2px solid;
-  border-color: #27c8f9;
-  border-radius: 5px;
-  background-color: #27c8f9;
+  border-color: #058cb5;
+  border-top-left-radius: 70px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 10px;
+  background-color: #058cb5;
 }

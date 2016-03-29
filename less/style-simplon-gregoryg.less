@@ -1,23 +1,21 @@
-@color1: #ff6200;
-@color2: #0c0040;
-@color3: #27c8f9;
+@color: #27c8f9;
 @bordure: 2px solid;
-@radius: 5px;
+@radius1: 10px;
+@radius2: 30px;
+@radius3: 50px;
+@radius4: 70px;
 @width: 300px;
 @height: 300px;
 
-
 .box-1-simplon-gregoryg {
-  width: @width; height: @height; border: @bordure; border-color: @color1; border-radius: @radius; background-color: @color1;
+  width: @width; height: @height; border: @bordure; border-color: lighten(@color, 20%);
+  border-top-left-radius:@radius1; border-top-right-radius:@radius2; border-bottom-right-radius:@radius3; border-bottom-left-radius:@radius4; background-color: lighten(@color, 20%);
 }
 
 .box-2-simplon-gregoryg {
-  width: @width; height: @height; border: @bordure; border-color: @color2; border-radius: @radius; background-color: @color2;
-  p {
-    color: white;
-  }
+  width: @width; height: @height; border: @bordure; border-color: @color; border-top-left-radius:@radius4;  border-top-right-radius:@radius2; border-bottom-right-radius:@radius1; border-bottom-left-radius:@radius3; background-color: @color;
 }
 
 .box-3-simplon-gregoryg {
-  width: @width; height: @height; border: @bordure; border-color: @color3; border-radius: @radius; background-color: @color3;
+  width: @width; height: @height; border: @bordure; border-color: darken(@color, 20%); border-top-left-radius:@radius4; border-top-right-radius:@radius3; border-bottom-right-radius:@radius2; border-bottom-left-radius:@radius1; background-color: darken(@color, 20%);
 }
