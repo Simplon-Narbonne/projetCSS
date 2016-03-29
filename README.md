@@ -3,9 +3,13 @@
 Pour faire une branche
 
 https://git-scm.com/book/fr/v1/Les-branches-avec-Git-Ce-qu-est-une-branche
+
 indices:
-git branch
-git checkout
+
+git clone git@github.com:Simplon-Narbonne/projetCSS.git
+
+git branch  xxxxx
+git checkout xxxxxx
 git push --set-upstream origin simplon-xxxxxx
 
 Le tutoriel Sass:
