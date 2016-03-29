@@ -1,9 +1,21 @@
 .box-1-simplon-thomasn {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
   border-radius: 5px;
+  border: solid black 2px;
+  margin-bottom: 2px;
 }
 .box-2-simplon-thomasn {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
   border-radius: 10px;
+  border: solid black 2px;
+  margin-bottom: 2px;
 }
 .box-3-simplon-thomasn {
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
   border-radius: 15px;
+  border: solid black 2px;
+  margin-bottom: 2px;
 }
