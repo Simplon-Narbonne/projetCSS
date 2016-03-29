@@ -5,6 +5,11 @@
   border: solid #1C1768 2px;
   margin-bottom: 2px;
   text-align: center;
+  background-color: #D0D0D0;
+}
+.box-1-simplon-thomasn:hover {
+  color: #FFF;
+  background-color: #1C1768;
 }
 .box-2-simplon-thomasn {
   -moz-border-radius: 10px;
@@ -13,6 +18,11 @@
   border: solid #1C1768 2px;
   margin-bottom: 2px;
   text-align: center;
+  background-color: #D0D0D0;
+}
+.box-2-simplon-thomasn:hover {
+  color: #FFF;
+  background-color: #1C1768;
 }
 .box-3-simplon-thomasn {
   -moz-border-radius: 15px;
@@ -21,4 +31,9 @@
   border: solid #1C1768 2px;
   margin-bottom: 2px;
   text-align: center;
+  background-color: #D0D0D0;
+}
+.box-3-simplon-thomasn:hover {
+  color: #FFF;
+  background-color: #1C1768;
 }
