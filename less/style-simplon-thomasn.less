@@ -1,17 +1,24 @@
+@radiusDoux: 5px;
+@radiusMoyen: 10px;
+@radiusFort: 15px;
+@bleu: #1C1768;
+
+
 .border-radius(@radius) {
   -moz-border-radius: @radius;
   -webkit-border-radius: @radius;
   border-radius: @radius;
-  border: solid black 2px;
+  border: solid @bleu 2px;
   margin-bottom: 2px;
+  text-align: center;
 }
 
 .box-1-simplon-thomasn {
-  .border-radius(5px);
+  .border-radius(@radiusDoux);
 }
 .box-2-simplon-thomasn {
-  .border-radius(10px);
+  .border-radius(@radiusMoyen);
 }
 .box-3-simplon-thomasn {
-  .border-radius(15px);
+  .border-radius(@radiusFort);
 }
