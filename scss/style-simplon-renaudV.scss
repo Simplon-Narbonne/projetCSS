@@ -1,0 +1,9 @@
+$couleur : green;
+
+@for $i from 1 through 3 {
+    .box-#{$i}-simplon-renaudV {
+        $darkcolor : darken($couleur, 10% * $i);
+        background-color: $darkcolor;
+        border-radius: $i * 10%; 
+    }
+}
